@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — Home Server Backup</title>
+<style>body{font:17px/1.65 system-ui,sans-serif;max-width:760px;margin:48px auto;padding:0 24px;color:#203047;background:#f7f9fc}main{background:white;padding:32px;border:1px solid #dce3ed;border-radius:12px}h1,h2{line-height:1.25}h2{margin-top:32px}a{color:#174fbc}nav{margin:24px 0}footer{font-size:14px;color:#536174;margin-top:32px}</style>
+</head>
+<body><main>
+<nav><a href="index.html">Home</a> · <a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms</a></nav>
+<h1>Privacy policy</h1>
+<p>Effective November 13, 2026.</p>
+<p>Home Server Backup is a personal-use tool operated by its project owner. This policy describes the intended Google Drive backup workflow as it is configured and enabled.</p>
+<h2>Data used and purpose</h2>
+<p>The tool uses Google authorization credentials to connect to the owner's Drive and manage its backup repository. Selected server files may include application configuration, databases, automation scripts, and game saves. Recovery configuration can contain sensitive information, so backup contents are encrypted with Restic before being sent to Drive.</p>
+<p>Google Drive data accessed by the tool is used only to operate and verify backups, restore data at the owner's request, and maintain backup history. It is not used for advertising, sale, profiling, or training artificial intelligence models.</p>
+<h2>Storage and access</h2>
+<p>Authorization credentials are stored on the owner's computer or server with restricted access. Encrypted backup data is stored in the owner's Google Drive. The owner controls the recovery password and is responsible for keeping an independent recovery copy of it.</p>
+<p>This public website and its repository must not contain backup contents, authorization tokens, encryption passwords, or private server configuration. The tool does not make the backup repository public.</p>
+<h2>Sharing and service providers</h2>
+<p>The tool does not intentionally share Google user data with other people. Google processes authorization and stores uploaded encrypted files as the chosen service provider. GitHub hosts this information website; its hosting privacy practices apply to visits. This site itself has no analytics scripts, forms, or advertising.</p>
+<h2>Retention and deletion</h2>
+<p>Backup history is kept according to the owner's configured retention and storage limits. Removing a backup snapshot may not immediately remove all underlying data because backup versions can share encrypted data. Repository maintenance is needed to reclaim eligible storage.</p>
+<p>The owner can revoke the tool's Google access in Google Account settings. Revoking access stops future authorized access but does not automatically delete backups already stored in Drive. The owner can separately remove those files and any remaining local copies.</p>
+<h2>Contact and changes</h2>
+<p>Questions or policy updates can be raised through the <a href="https://github.com/PoohBearsHoney/home-server-backup-info">project repository</a>. Public issues must not include credentials or backup data. Changes to this policy will be published here with an updated date.</p>
+<footer>Home Server Backup · Personal-use project · Updated November 13, 2026</footer>
+</main></body>
+</html>
